@@ -1,1 +1,1 @@
-<h1>Repositório dedicado a estudos.<h1>
+## Repositório dedicado a estudos.<h2>
