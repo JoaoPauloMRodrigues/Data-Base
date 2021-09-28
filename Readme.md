@@ -1,1 +1,1 @@
-## Repositório dedicado a estudos..<h2>
+## Repository dedicated to studies and tests of new technologies and languages.
