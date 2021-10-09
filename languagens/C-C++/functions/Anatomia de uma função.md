@@ -1,6 +1,6 @@
-## 												**Anatomia de uma função**
+## 												**cAnatomia de uma função**
 
-```c
+```c++
 <tipo de retorno (int,float,void ....)> nome_da_função (<declaração de parâmetros se tiver>) {
 ​	<bloco de codigo>
 }
@@ -10,9 +10,58 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Exemplo :**
+```c++
+#include <iostream>
+//funções podem ser declaras acima da função main
+int num(int num){
+	return num + 2;
+}
+         
+int main(){
+    int var = 1;
+    int result = 0;
+    
+	result = num(var);
+    //e chamadas dentro da função
+	std::cout << result;
+    return 0;
+}
 
-```c
+//porém..............
+```
+
+```c++
+#include <iostream>
+//normalmente será declarado assim com a função abaixo
+//Mas a sua inicialização encima chamada de <Protótipos de função>
+//Poís o programa compila de cima para baixo <TOP -> DOWN> e função declarada em baixo
+// não existira para o main chamar. 
+
+//Por isso inicializamos um protótipo de função acima do main
+/* --> */int num (int num);
+int main(){
+    int var = 1;
+    int result = 0;
+    
+	result = num(var);
+	std::cout << result;
+    return 0;
+}
+
+int num(int num){
+	return num + 2;
+}
+
+// mais exemplos e melhor explicação nesse arquivo: <function prototypes.cpp>
+```
+
+
+
+-------------------------------------------------------
+
+**Exemplo de com cod completo :**
+
+```c++
 #include <iostream>
 /*Crie uma função que indique se um número é par ou impar. Receba número do usuário e exiba na tela o número recebido e se ele é par ou impar.
 */
