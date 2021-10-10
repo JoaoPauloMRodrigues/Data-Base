@@ -1,4 +1,4 @@
-## 												**cAnatomia de uma função**
+## 												**Anatomia de uma função**
 
 ```c++
 <tipo de retorno (int,float,void ....)> nome_da_função (<declaração de parâmetros se tiver>) {
