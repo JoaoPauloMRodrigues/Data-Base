@@ -1,4 +1,4 @@
-## 												**cAnatomia de uma função**
+## 												**Anatomia de uma função**
 
 ```c++
 <tipo de retorno (int,float,void ....)> nome_da_função (<declaração de parâmetros se tiver>) {
@@ -63,7 +63,8 @@ int num(int num){
 
 ```c++
 #include <iostream>
-/*Crie uma função que indique se um número é par ou impar. Receba número do usuário e exiba na tela o número recebido e se ele é par ou impar.
+/*Crie uma função que indique se um número é par ou impar.
+Receba número do usuário e exiba na tela o número recebido e se ele é par ou impar.
 */
 //Protótipó da função
 bool isPar(int num);
