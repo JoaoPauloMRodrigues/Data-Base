@@ -6,7 +6,7 @@
 
 ## ***Evolução*** :								
 
-​													      ![](C:\Users\Joao\Downloads\WhatsApp Image 2021-10-19 at 17.47.23.jpeg)	
+​		
 
 ---
 
