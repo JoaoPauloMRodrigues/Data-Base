@@ -35,6 +35,8 @@
 
 ----
 
-## **Classes:**
+## Principais Pilares da POO
 
-​		Uma **classe** é um gabarito para a definição de objetos. Além da especificação de atributos, a definição de uma **classe** descreve também qual o comportamento de objetos da **classe**, ou seja, que funcionalidades podem ser aplicadas a objetos da **classe**. Essas funcionalidades são descritas através de métodos.
+- **Encapsulamento:**
+- **Herança:**
+- **Polimorfismo**
