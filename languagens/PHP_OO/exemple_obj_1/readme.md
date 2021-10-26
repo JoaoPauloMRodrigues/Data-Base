@@ -1,6 +1,6 @@
 ## **Classes:**
 
-​		Uma **classe** é um gabarito para a definição de objetos. Além da especificação de atributos, a definição de uma **classe** descreve também qual o comportamento de objetos da **classe**, ou seja, que funcionalidades podem ser aplicadas a objetos da **classe**. Essas funcionalidades são descritas através de métodos.
+> Uma **classe** é um gabarito para a definição de objetos. Além da especificação de atributos, a definição de uma **classe** descreve também qual o comportamento de objetos da **classe**, ou seja, que funcionalidades podem ser aplicadas a objetos da **classe**. Essas funcionalidades são descritas através de métodos.
 
 ---
 
@@ -40,7 +40,7 @@ class Classe  {
 
 ## Métodos 
 
-> ​	Métodos também podem ter níveis de acesso. Para proteger que qualquer um possa alterar os atributos, existem métodos **assessores** (*Getters*) e **modificadores** (*Setters*), que servem para mexer indiretamente em um atributo Há também um método chamado construtor, que serve para "settar" os valores que iram vir por default no abjeto se houver. 
+> Métodos também podem ter níveis de acesso. Para proteger que qualquer um possa alterar os atributos, existem métodos **assessores** (*Getters*) e **modificadores** (*Setters*), que servem para mexer indiretamente em um atributo Há também um método chamado construtor, que serve para "settar" os valores que iram vir por default no abjeto se houver. 
 
 ```php
 class Classe  {
