@@ -7,11 +7,11 @@
 ***Vantagens da POO*** :
 
 > 1. **Confiável** : *Componentes que trabalham juntos, mas são isolados, ao alterar uma parte nenhuma outra é afetada.*
-  2. **Oportuno:** *Ao dividir tudo em partes, muitas delas podem ser desenvolvidas paralelamente.*
-  3. **Manutenível:** *Processo de manutenção e atualização, se torna mais fácil.*
-  4. **Extensível:** *Poder acrescentar, sem ter que refazer do zero.*  
-  5. **Reutilizável:** *Reutilizável, reaproveitar códigos já escritos* 
-  6. **Natural :** *Se preocupa mais com a funcionalidade, do que nos detalhes de implementação.*
+> 2. **Oportuno:** *Ao dividir tudo em partes, muitas delas podem ser desenvolvidas paralelamente.*
+> 3. **Manutenível:** *Processo de manutenção e atualização, se torna mais fácil.*
+> 4. **Extensível:** *Poder acrescentar, sem ter que refazer do zero.*  
+> 5. **Reutilizável:** *Reutilizável, reaproveitar códigos já escritos* 
+> 6. **Natural :** *Se preocupa mais com a funcionalidade, do que nos detalhes de implementação.*
 
 ---
 
@@ -42,5 +42,4 @@
 - **Herança:**
 - **Polimorfismo**
 =======
-​	 >	Uma **classe** é um gabarito para a definição de objetos. Além da especificação de atributos, a definição de uma **classe** descreve também qual o comportamento de objetos da **classe**, ou seja, que funcionalidades podem ser aplicadas a objetos da **classe**. Essas funcionalidades são descritas através de métodos.
->>>>>>> d8be327d32d93d38b25eeabc90378915d2196396
+>	Uma **classe** é um gabarito para a definição de objetos. Além da especificação de atributos, a definição de uma **classe** descreve também qual o comportamento de objetos da **classe**, ou seja, que funcionalidades podem ser aplicadas a objetos da **classe**. Essas funcionalidades são descritas através de métodos.
