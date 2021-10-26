@@ -1,6 +1,6 @@
 # 												Programação Orientada a Objetos
 
-​			O paradigma da **POO**(Programação Orientada a Objetos) é um  modelo de análise, projeto e programação baseado na aproximação entre o mundo real e o mundo virtual, através da criação e interação entre objetos, atributos, códigos, métodos, entre outros. A primeira linguagem que utilizava deste paradigma, foi desenvolvida pelo matemático e biólogo **Alan Kay** em 1970.
+​		 >	O paradigma da **POO**(Programação Orientada a Objetos) é um  modelo de análise, projeto e programação baseado na aproximação entre o mundo real e o mundo virtual, através da criação e interação entre objetos, atributos, códigos, métodos, entre outros. A primeira linguagem que utilizava deste paradigma, foi desenvolvida pelo matemático e biólogo **Alan Kay** em 1970.
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## Objeto : 
 
-​		Algo concreto ou abstrato, que pode ser percebido pelos sentidos e descrita por meio das suas ***características***, ***comportamentos*** e ***estado atual***.
+​	 >	Algo concreto ou abstrato, que pode ser percebido pelos sentidos e descrita por meio das suas ***características***, ***comportamentos*** e ***estado atual***.
 
 ---
 
@@ -37,6 +37,10 @@
 
 ## Principais Pilares da POO
 
+<<<<<<< HEAD
 - **Encapsulamento:**
 - **Herança:**
 - **Polimorfismo**
+=======
+​	 >	Uma **classe** é um gabarito para a definição de objetos. Além da especificação de atributos, a definição de uma **classe** descreve também qual o comportamento de objetos da **classe**, ou seja, que funcionalidades podem ser aplicadas a objetos da **classe**. Essas funcionalidades são descritas através de métodos.
+>>>>>>> d8be327d32d93d38b25eeabc90378915d2196396
