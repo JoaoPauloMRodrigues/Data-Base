@@ -1,1 +1,4 @@
-## Repository dedicated to studies and tests of new technologies and languages.
+## Repositório dedicado á estudos  de novas tecnologias e linguagens.
+
+
+
