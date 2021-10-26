@@ -1,20 +1,40 @@
-## 												Programação Orientada a Objetos
+# 												Programação Orientada a Objetos
 
-​			Programação orientada a objetos é um paradigma de programação baseado no conceito de "objetos", que podem conter dados na forma de campos, também conhecidos como atributos, e códigos, na forma de procedimentos, também conhecidos como métodos. A primeira linguagem que utilizava deste paradigma, foi desenvolvida pelo matemático e biólogo ***Alan Kay*** em 1970, com intuito de se aproximar do mundo real.
-
-----
-
-## ***Evolução*** :								
-
-​		
+​			O paradigma da **POO**(Programação Orientada a Objetos) é um  modelo de análise, projeto e programação baseado na aproximação entre o mundo real e o mundo virtual, através da criação e interação entre objetos, atributos, códigos, métodos, entre outros. A primeira linguagem que utilizava deste paradigma, foi desenvolvida pelo matemático e biólogo **Alan Kay** em 1970.
 
 ---
 
 ## ***Vantagens da POO*** :
 
-1. Confiável :
-2. Oportuno:
-3. Manutenível:
-4. Extensível:
-5. Reutilizável:
-6. Natural : 
+1. **Confiável** : *Componentes que trabalham juntos, mas são isolados, ao alterar uma parte nenhuma outra é afetada.*
+2. **Oportuno:** *Ao dividir tudo em partes, muitas delas podem ser desenvolvidas paralelamente.*
+3. **Manutenível:** *Processo de manutenção e atualização, se torna mais fácil.*
+4. **Extensível:** *Poder acrescentar, sem ter que refazer do zero.*  
+5. **Reutilizável:** *Reutilizável, reaproveitar códigos já escritos* 
+6. **Natural :** *Se preocupa mais com a funcionalidade, do que nos detalhes de implementação.*
+
+---
+
+## Objeto : 
+
+​		Algo concreto ou abstrato, que pode ser percebido pelos sentidos e descrita por meio das suas ***características***, ***comportamentos*** e ***estado atual***.
+
+---
+
+**Exemplo Físico de Objeto**: *Controle Remoto*
+
+- **Características / Atributos**   =  *Modelo, Cor   etc...*
+- **Comportamento / Métodos** =  *Ligar, Desligar   etc...*
+- **Estado Atual / Status**          =  *Ligado, Desligado   etc...* 
+
+**Exemplo Abstrato Objeto**: *Compromisso*
+
+- **Características / Atributos**   =  *Dia que foi marcado, hora  etc...*
+- **Comportamento / Métodos** =  *Marcado, Cancelado  etc...*
+- **Estado Atual / Status**          =  *Suspenso, Desligado   etc..*
+
+----
+
+## **Classes:**
+
+​		Uma **classe** é um gabarito para a definição de objetos. Além da especificação de atributos, a definição de uma **classe** descreve também qual o comportamento de objetos da **classe**, ou seja, que funcionalidades podem ser aplicadas a objetos da **classe**. Essas funcionalidades são descritas através de métodos.
