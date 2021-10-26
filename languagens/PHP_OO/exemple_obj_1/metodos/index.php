@@ -1,6 +1,6 @@
 <?php
 
-    require_once 'methodos.php';
+    require_once 'Caneta2.php';
 
     $c1 = new Caneta2 ("BIC", "AZUL", "0.5");
     // $c1 -> setModelo("BIC");
