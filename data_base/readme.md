@@ -16,7 +16,7 @@
 > 2. **INSERT** -> *Instrução utilizada para inserir dados a uma ou mais tabelas no banco de dados.* 
 > 3. **UPDATE** -> *Instrução utilizada para atualizar dados de uma ou mais tabelas no banco de dados.*
 
-- **DML : ** ***Linguagem de Definição de Dados***
+- **DML :** ***Linguagem de Definição de Dados***
 
 > *É um conjunto de instruções usado para criar e modificar as estruturas dos objetos armazenados no banco de dados.*
 >
@@ -36,7 +36,7 @@
 > 2. **REVOKE** -> *Remove os privilégios de acesso aos objetos obtidos com o comando GRANT.*
 > 3. **DENY** -> *O comando é usado para impedir explicitamente que um usuário receba uma permissão específica.*
 
-- **TLC : ** ***Linguagem de Controle de Transações***
+- **TLC :** ***Linguagem de Controle de Transações***
 
 > *São usados para gerenciar as mudanças feitas por instruções DML . Ele permite que as declarações a serem agrupadas em transações lógicas.*
 >
