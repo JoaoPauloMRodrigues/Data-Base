@@ -14,9 +14,28 @@ const criarTarefa = (event) => {
     const conteudo = `<p class="content">${valor}</p>`;
 
     tarefa.innerHTML = conteudo;
+    tarefa.appendChild(botaoConclui());
+
     lista.appendChild(tarefa);
     input.value = ' ';
 }
 
 const novaTarefa = document.querySelector('[data-form-button]');
 novaTarefa.addEventListener('click', criarTarefa);
+
+const botaoConclui = () => {
+    const botaoConclui = document.createElement('button');
+    botaoConclui.classList.add('check-button');
+    botaoConclui.innerText = "concluir";
+    botaoConclui.addEventListener('click',conluirTarefa);
+
+    return botaoConclui;
+}
+
+const conluirTarefa = (event) => {
+    const botaoConclui = event.target;
+
+    const tarefaCompleta = botaoConclui.parentElement;
+
+    tarefaCompleta.classList.toggle('done');
+}

@@ -24,7 +24,7 @@
 
 ## *Data Attributes*
 
-> O **atributo data**-* permite ao autor armazenar informações extras em elementos HTML sem a necessidade de uso de um elemento não semântico ou de poluir os nomes de classes, como fazíamos na HTML anterior com o uso de **atributos** personalizados.
+> O **atributo data-** permite ao autor armazenar informações extras em elementos HTML sem a necessidade de uso de um elemento não semântico ou de poluir os nomes de classes, como fazíamos na HTML anterior com o uso de **atributos** personalizados.
 
 
 
@@ -36,7 +36,7 @@
 
 ```js
 return `<h1>
-		   ${varivelTitulo}
+			${varivelTitulo}
     	</h1>`;
 ```
 
