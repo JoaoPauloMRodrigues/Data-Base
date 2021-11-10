@@ -1,8 +1,22 @@
-# MySQL :
+
+
+
+
+# Introdução à Banco de dados
+
+> *https://github.com/JoaoPauloMRodrigues/Studies/blob/main/data_base/Intro_Banco_de_Dados/introducaobancoDeDados.pdf*
+
+---
+
+# *Notas:*
+
+---
+
+## MySQL 
 
 > O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation.
 
-----
+---
 
 ## Comandos :
 
@@ -116,11 +130,7 @@
 
 ---
 
-## Relações (*Cardinalidade*)
 
-PDF
-
----
 
 
 
