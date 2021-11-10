@@ -40,3 +40,28 @@ return `<h1>
     	</h1>`;
 ```
 
+---
+
+## ***I I F E*** 
+
+> **IIFE** (Immediately Invoked Function Expression) é uma função em [JavaScript](https://developer.mozilla.org/pt-BR/docs/Glossary/JavaScript) que é executada assim que definida.
+>
+> É um Design Pattern também conhecido como [Self-Executing Anonymous Function](https://developer.mozilla.org/pt-BR/docs/Glossary/Self-Executing_Anonymous_Function) e contém duas partes principais. A primeira é a função anônima cujo escopo léxico é encapsulado entre parênteses. Isso previne o acesso externo às variáveis declaradas na IIFE, bem como evita que estas variáveis locais poluam o escopo global.
+>
+> A segunda parte corresponde à criação da expressão `()`, por meio da qual o interpretador JavaScript avaliará e executará a função.
+
+```js
+
+(() => {     
+
+    const exemple = () => {
+        //cod.....
+    }
+
+    const exemple = (ex) => {
+     	//cod....
+    }
+    
+})()
+```
+
