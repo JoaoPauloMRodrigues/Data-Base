@@ -43,8 +43,86 @@
 > **Alguns Exemplos:**
 >
 > 1. **COMMIT** -> *É usado para salvar permanentemente qualquer transação no banco de dados.*
->
 > 2. **ROLLBACK** -> *Este comando restaura o banco de dados para o último estado commited.*
 >
->     
+
+---
+
+## Data base
+
+> ### Schema (*Diagrama*)
+>
+> *Um esquema de bancos de dados de um sistema de banco de dados é sua estrutura descrita em uma linguagem formal suportada pelo sistema de gerenciamento de banco de dados e refere-se à organização de dados como um diagrama de como um banco de dados é construído.*
+>
+> > 
+> >
+> > ### Tabela
+> >
+> > > | ↓    | ↓    | ↓    | ↓    | ↓    | ↓    |
+> > > | :--- | ---- | ---- | ---- | ---- | ---- |
+> > > |      |      |      |      |      |      |
+> > > | →    | →    | →    | →    | →    | →    |
+> > >
+> > > - **↓** - **Campos** (*Os campos só podem conter itens do mesmo tipo.*)
+> > > - **→** - **Registros** (*Um único item implícito de dados estruturados em uma tabela*.) 
+
+---
+
+## Data types (*atributos*)
+
+*Exemplos:*
+
+- **INT**
+- **FLOAT** 
+- **DATE**
+- **TIME**
+- **VARCHAR**
+
+---
+
+## Primary key
+
+> *A chave primária, ou **primary key**, é o conceito mais básico relacionado à organização em um banco de dados. Toda tabela possuirá uma, e somente uma, chave primária. Essa chave é utilizada como identificador único da tabela, sendo representada por aquele campo (ou campos) que não receberá valores repetidos.*
+
+---
+
+## Foreign Key
+
+> **Chave estrangeira**, ou Foreign Key (FK), ou ainda **chave** externa é a **chave** que permite a referência a registros oriundos de outras tabelas. Ou seja, é o campo ou conjunto de campos que compõem a **chave** primária de uma outra tabela.Uma **chave estrangeira** é a representação de um relacionamento entre tabelas.
+
+---
+
+## View
+
+> A **view** pode ser definida como uma tabela virtual composta por linhas **e** colunas de dados vindos de tabelas relacionadas em uma query (um agrupamento de SELECT's, por exemplo). As linhas **e** colunas da **view são** geradas dinamicamente no momento em que **é** feita uma referência a ela.
+
+---
+
+## Stored procedure
+
+>  É uma coleção de comandos em SQL, que podem ser executadas em um Banco de dados de uma só vez, como em uma função.
+
+---
+
+## Trigger
+
+> **Triggers** são eventos que você pode programar para que sejam executados antes (BEFORE) ou depois (AFTER) de fazer uma inserção (INSERT), alteração (UPDATE) ou uma remoção (DELETE) de registros de uma determinada tabela (ON TABLE nome_da_tabela).
+
+---
+
+## Comandos SQL 
+
+- *https://www.w3schools.com/sql/*
+
+---
+
+## Relações (*Cardinalidade*)
+
+PDF
+
+---
+
+
+
+
 
