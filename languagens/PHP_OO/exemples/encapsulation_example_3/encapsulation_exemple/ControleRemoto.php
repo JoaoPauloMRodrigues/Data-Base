@@ -1,5 +1,5 @@
 <?php
-    require_once "interface_controlador.php";
+    require_once "interface.php";
 
     class ControleRemoto implements Controlador{
 

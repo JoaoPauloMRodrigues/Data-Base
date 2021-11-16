@@ -1,5 +1,5 @@
 <?php
-    require_once "classe_controle_remoto.php";
+    require_once "ControleRemoto.php";
 
     $c = new ControleRemoto;
     $c-> ligar();

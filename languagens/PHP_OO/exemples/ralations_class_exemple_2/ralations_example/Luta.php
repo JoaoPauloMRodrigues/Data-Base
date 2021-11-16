@@ -1,5 +1,5 @@
 <?php
-    require_once "class_lutador.php";
+    require_once "Lutador.php";
     
     class Luta {
         private $desafiado;    

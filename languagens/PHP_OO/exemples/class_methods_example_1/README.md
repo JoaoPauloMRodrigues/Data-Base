@@ -8,9 +8,9 @@
 
 >  Nível de acesso a componentes internos de uma classe:
 
-- **public** = *A classe atual e todas as outras classes, podem ter acesso.* 
-- **private** = *Somente a classe atual.*
-- **protected** = *A classe atual e todas suas subclasses*
+- **+ public** = *A classe atual e todas as outras classes, podem ter acesso.* 
+- **- private** = *Somente a classe atual.*
+- **# protected** = *A classe atual e todas suas subclasses*
 
 ----
 

@@ -1,6 +1,6 @@
 <?php
-    require_once "class_lutador.php";
-    require_once "class_luta.php";
+    require_once "Lutador.php";
+    require_once "Luta.php";
 
     $l = array();
     $l[0] = new lutador('Pedrinho',"EUA",45,1.34,70,11,1,5);

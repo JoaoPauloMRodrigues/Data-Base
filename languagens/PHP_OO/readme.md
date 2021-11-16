@@ -41,7 +41,7 @@
 
 ## Principais Pilares da POO
 
-> - **Encapsulamento:**
-> - **Herança:**
-> - **Polimorfismo**
+> - **Encapsulamento:** *Ocultar partes independente da implementação, para proteger e padronizar*. 
+> - **Herança:** *Permite basear uma nova classe na definição de uma outra classe existente.*
+> - **Polimorfismo:** *Permite que uma mesma assinatura represente vários comportamentos diferentes.*
 

@@ -1,6 +1,6 @@
 <?php
 
-    require_once "classContaBanco.php";
+    require_once "ContaBanco.php";
 
     $p1 = new ContaBanco();
     $p1 -> abrirConta("CC");
