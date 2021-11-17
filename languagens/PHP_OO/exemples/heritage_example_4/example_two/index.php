@@ -1,5 +1,5 @@
 <?php
-    require_once "class_visitante.php";
+    require_once "Visitante.php";
     
    $v1 = new Visitante();
    $v1 -> setNome('visitante');
@@ -9,7 +9,7 @@
    print_r($v1);
    echo '</pre>';
 
-   require_once "class_aluno.php";
+   require_once "Aluno.php";
 
    $a1 = new Aluno ();
    $a1 -> setNome('aluno');
@@ -22,7 +22,7 @@
    print_r($a1);
    echo '</pre>';
 
-    require_once "class_bolsista.php";
+    require_once "Bolsista.php";
 
     $b1 = new Bolsista();
     $b1 -> setNome('Bolsista');

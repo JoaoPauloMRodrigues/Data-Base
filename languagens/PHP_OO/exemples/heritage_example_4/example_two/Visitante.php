@@ -1,6 +1,6 @@
 <?php
 
-    require_once "class_pessoa.php";
+    require_once "Pesssoa.php";
 
     class Visitante extends Pessoa {
 

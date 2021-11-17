@@ -1,6 +1,6 @@
 <?php
 
-require_once 'class_pessoa.php';
+require_once 'Pessoa.php';
 
 class Professor extends Pessoa {
     private $especialidade;

@@ -1,7 +1,7 @@
 <?php
     //hernça para diferença
     //herda mas há uma diferença em relação a mãe
-    require_once "class_pessoa.php";
+    require_once "Pessoa.php";
 
     class Aluno extends Pessoa {
         private $matricula;
