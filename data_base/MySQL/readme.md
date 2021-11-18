@@ -92,6 +92,8 @@
 - **TIME**
 - **VARCHAR**
 
+*https://dev.mysql.com/doc/refman/8.0/en/data-types.html*
+
 ---
 
 ## Primary key
@@ -115,6 +117,7 @@
 ## Stored procedure
 
 >  É uma coleção de comandos em SQL, que podem ser executadas em um Banco de dados de uma só vez, como em uma função.
+>
 
 ---
 
