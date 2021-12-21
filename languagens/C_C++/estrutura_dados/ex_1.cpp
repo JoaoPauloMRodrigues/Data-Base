@@ -29,7 +29,7 @@ void Funcao01()
 }
 
 void Funcao02()
-{
+{ 
 	int Var02{ 02 };
 	std::cout << "\n Chamando Funcao02\n";
 	std::cout << "\n Endereco Var02: "
