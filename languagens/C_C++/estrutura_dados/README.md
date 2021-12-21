@@ -41,7 +41,7 @@
 >
 > ----
 >
-> - Ao instanciar uma objeto assim : ***Classe <Objeto>***,  ele salva direto na stack (**NA LINGUAGEM C**).
+> - Ao instanciar uma objeto assim : ***Classe <Objeto.>***,  ele salva direto na stack (**NA LINGUAGEM C**).
 > - Ao instanciar um objeto com ponteiro assim : **Classe *ponteiro = new Classe()***, ele salva na heap e manda o endereço aonde esse objeto foi instanciado para stack. Agora o objeto é criado na heap e terá seu tempo de vida longo pois ao contrário da stack neste caso da heap o objeto vai persistir, na memória até que o programador exclua o objeto via código com comando delete.
 >
 > 
