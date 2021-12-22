@@ -34,7 +34,7 @@
 
 ## Especialização ou Generalização
 
-> Também conhecida como [herança](https://pt.wikipedia.org/wiki/Herança_(programação)), representa as dependências e hierarquias.
+> Também conhecida como herança, representa as dependências e hierarquias.
 
 ---
 
