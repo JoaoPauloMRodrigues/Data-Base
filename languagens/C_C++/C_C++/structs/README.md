@@ -8,7 +8,7 @@
 
 > - Declara um tipo struct chamada produto, define 4 atributos, cada atributo neste caso tem um tipo de dado diferente. Esta declaração cria um novo tipo de dado de nome Produto, este tipo pode ser utilizado para criar objetos desse tipo. Ex: Teclado Mouse. Só vai ser salvo na memória assim que for instanciado um objeto. 
 > - Também pode ser adicionado métodos como uma classe.
-> - diferente da classe, a struct por default coloca todos os atributos como publicos.
+> - diferente da classe, a struct por default coloca todos os atributos como públicos.
 >
 > ```c++
 > #include <iostream>
