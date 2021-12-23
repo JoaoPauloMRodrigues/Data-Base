@@ -6,22 +6,40 @@
 
 ## Declaração
 
-> Declara um tipo struct chamada produto, define 4 atributos, cada atributo neste caso tem um tipo de dado diferente. Esta declaração cria um novo tipo de dado de nome Produto, este tipo pode ser utilizado para criar objetos desse tipo. Ex: Teclado Mouse. Só vai ser salvo na memória assim que for instanciado um objeto. 
+> - Declara um tipo struct chamada produto, define 4 atributos, cada atributo neste caso tem um tipo de dado diferente. Esta declaração cria um novo tipo de dado de nome Produto, este tipo pode ser utilizado para criar objetos desse tipo. Ex: Teclado Mouse. Só vai ser salvo na memória assim que for instanciado um objeto. 
+> - Também pode ser adicionado métodos como uma classe.
+> - diferente da classe, a struct por default coloca todos os atributos como publicos.
 >
 > ```c++
 > #include <iostream>
 > struct Produto {
->     int Codigo;
->     std:: string Nome;
->     double Preco;
->     float peso
+>  int Codigo;
+>  std:: string Nome;
+>  double Preco;
+>  float peso
 > }
 > 
-> inr main (){
->     Produto Teclado; // <- Objeto instanciado 
->     Produto Mouse; // <- Objeto instanciado 
->     system("PAUSE");
->     return 0;
+> //---------- 
+> //Deste jeito os objs citados são estanciados automaticamente
+> //Porém a cada obj novo terá que ser adicionado o nome ali.
+> struct {
+>  int Codigo;
+>  std:: string Nome;
+>  double Preco;
+>  float peso
+> } Teclado, Mouse
+>     
+> int main (){
+>    Teclado.Codigo;
+> }    
+>     
+> //------------    
+> 
+> int main (){
+>  Produto Teclado; // <- Objeto instanciado 
+>  Produto Mouse; // <- Objeto instanciado 
+>  system("PAUSE");
+>  return 0;
 > }
 > ```
 >
