@@ -103,7 +103,7 @@
 
 ## Backup
 
-> ### BACKUP Lógico
+> ### BACKUP -  Lógico
 >
 > > - mysqldump - para criação de Backups Lógicos;
 > >
@@ -122,17 +122,36 @@
 > >
 > > ![ex_mysqldump_only_table](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/ex_mysqldump/ex_mysqldump_only_table.PNG)
 > >
-> > **EX - Todos menos um:**
+> > **EX - Todos menos um :**
 > >
 > > ![ex_mysqldump_ignore](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/ex_mysqldump/ex_mysqldump_ignore.PNG)
+> >
+> > ### EX - Executando todo o script de uma vez  (linha de comando) : 
+> >
+> > ![exe_script](D:\sudeni\repo_studies\dataBase\MySQL\DBA_segurança_otimização\ex_mysqldump\exe_script.PNG)
 >
-> BACKUP Físico;
-
-
+> ---
+>
+> ### BACKUP  -  Físico
+>
+> > - Para realizar um backup do banco como está atualmente é necessário para-ló temporariamente para poder realiza-ló.
+> >
+> > - para isso temos o comando:
+> >
+> > ```mysql
+> > #Trancar o banco :
+> > LOCK INSTANCE FOR BACKUP;
+> > #Para reverter :
+> > UNLOCK INSTANCE;
+> > ```
+> >
+> > 
 
 ## **Nota**
 
-> Comando para ver aonde os arquivos estão sendo salvos no disco :
+> Comando para ver aonde os arquivos (tabelas,registros) estão sendo salvos no disco :
 >
-> > *SHOW VARIABLES WHERE Variable_Name LIKE '%dir% ';*
+> > ```mysql
+> > SHOW VARIABLES WHERE Variable_Name LIKE '%dir% ';
+> > ```
 
