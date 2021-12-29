@@ -114,9 +114,13 @@
 > > - .> <nome da saída> redireciona a saída do backup.
 > > - Para incluir Stored Procedures e eventos do banco de dados usamos --routines e --events.
 > >
-> > EX :
+> > **EX - todo o banco :**
 > >
 > > ![ex_mysqldump](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/ex_mysqldump/ex_mysqldump.PNG)
+> >
+> > **EX - Apenas uma tabela especifica :**
+> >
+> > 
 >
 > BACKUP Físico;
 
