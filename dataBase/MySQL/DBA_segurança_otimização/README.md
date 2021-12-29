@@ -101,7 +101,30 @@
 
 ---
 
+## Backup
+
+> ### BACKUP Lógico
+>
+> > - mysqldump - para criação de Backups Lógicos;
+> >
+> > Sintaxe : mysqldump [options]
+> >
+> > - Usuário, senha, servidor
+> > - --all-databases é a opção que diz que BACKUP será completo.
+> > - .> <nome da saída> redireciona a saída do backup.
+> > - Para incluir Stored Procedures e eventos do banco de dados usamos --routines e --events.
+> >
+> > EX :
+> >
+> > ![ex_mysqldump](D:\sudeni\repo_studies\dataBase\MySQL\DBA_segurança_otimização\ex_mysqldump\ex_mysqldump.PNG)
+>
+> BACKUP Físico;
 
 
 
+## **Nota**
+
+> Comando para ver aonde os arquivos estão sendo salvos no disco :
+>
+> > *SHOW VARIABLES WHERE Variable_Name LIKE '%dir% ';*
 
