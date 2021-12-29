@@ -123,6 +123,8 @@
 > > ![ex_mysqldump_only_table](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/ex_mysqldump/ex_mysqldump_only_table.PNG)
 > >
 > > **EX - Todos menos um:**
+> >
+> > ![ex_mysqldump_ignore](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/ex_mysqldump/ex_mysqldump_ignore.PNG)
 >
 > BACKUP Físico;
 
