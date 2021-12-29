@@ -116,7 +116,7 @@
 > >
 > > EX :
 > >
-> > ![ex_mysqldump](D:\sudeni\repo_studies\dataBase\MySQL\DBA_segurança_otimização\ex_mysqldump\ex_mysqldump.PNG)
+> > ![ex_mysqldump](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/ex_mysqldump/ex_mysqldump.PNG)
 >
 > BACKUP Físico;
 
