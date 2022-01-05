@@ -145,16 +145,61 @@
 > > UNLOCK INSTANCE;
 > > ```
 > >
+> > Comando para ver aonde os arquivos (tabelas,registros) estão sendo salvos no disco :
+> >
+> > ```mysql
+> > SHOW VARIABLES WHERE Variable_Name LIKE '%dir% ';
 > > 
+> > # ex : C:\ProgramData\MySQL\MySQL Server 8.0\Data\
+> > # data e my.ini    <- mais importantes 
+> > ```
+
+----
+
+## Algoritmos Hash e Btree
+
+> - HASH e B-TREE são diferentes algoritmos de busca de lista ordenada.
+>
+>   > ### Árvore Binária
+>   >
+>   > ![conexao_mysql](https://blog.cod3r.com.br/wp-content/uploads/2020/11/ArvoreBinaria-584x450.png)
+>   >
+>   > 
+>   >
+>   > **Exemplo de como funciona**
+>   >
+>   > >  Se quiser achar o numero **12**, ele vai começar no **24**, **(24 < 12 ) = false**, então sabemos que está do lado esquerdo porque os maiores estão do lado direito, ai segue para o **(10 < 12) = true** então sabemos que ele está a direita, até encontrar o **12**.
+>
+>   ---
+>
+>   ### B-TREE
+>
+>   > - o B é chamado de "Balance Tree" porque o índice sempre tenta balancear os lados da árvore.
+>   >
+>   >   > ![b_tree](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/repo_img/b_tree.jpeg)
+>   >   >
+>   >   > > **Ela tenta distribuir ao máximo os nós na ávore**
+>   >   >
+>   >   > ---
+>   >   >
+>   >   > Seus valores são balanceados. OS mesmos dados que temos na esquerda teremos na direita.
+>   >   >
+>   >   > ![b_tree](https://upload.wikimedia.org/wikipedia/commons/6/65/B-tree.svg)
+>   >   >
+>   >   > Ex : Oque está a esquerda do **7** está localizado no grupo da esquerda, entre **7** e **16** está no grupo do meio.
+>   >   >
+>   >   > **Eficiência** : **4 bilhões de nós** em no máximo **32 níveis**, portanto em apenas **32 consultas** chegamos ao que queremos
+>   >   >
+>   >   > ----
+>
+>   ## HASH 
+>
+>   > É um algoritmo que mapeia dados grandes de tamanhos variáveis em um tamanho fixo.
+
+
 
 ## **Nota**
 
-> Comando para ver aonde os arquivos (tabelas,registros) estão sendo salvos no disco :
->
-> > ```mysql
-> > SHOW VARIABLES WHERE Variable_Name LIKE '%dir% ';
-> > ```
->
 > Conectar no MySQL por linha de comando :
 >
 > > ![conexao_mysql](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/ex_mysqldump/conexao_mysql.jpeg)
