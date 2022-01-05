@@ -154,4 +154,8 @@
 > > ```mysql
 > > SHOW VARIABLES WHERE Variable_Name LIKE '%dir% ';
 > > ```
+>
+> Conectar no MySQL por linha de comando :
+>
+> > ![conexao_mysql](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/ex_mysqldump/conexao_mysql.jpeg)
 
