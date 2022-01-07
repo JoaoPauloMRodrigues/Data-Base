@@ -162,7 +162,7 @@
 >
 >   > ### Árvore Binária
 >   >
->   > ![conexao_mysql](https://blog.cod3r.com.br/wp-content/uploads/2020/11/ArvoreBinaria-584x450.png)
+>   > ![arvore](https://blog.cod3r.com.br/wp-content/uploads/2020/11/ArvoreBinaria-584x450.png)
 >   >
 >   > 
 >   >
@@ -195,6 +195,18 @@
 >   ## HASH 
 >
 >   > É um algoritmo que mapeia dados grandes de tamanhos variáveis em um tamanho fixo.
+>   >
+>   > > *ASJAJSAOJSJAHG.....................................................................010010010010010*
+>   > >
+>   > > *ASJAJSAO...................................................................................012001220010010*
+>   > >
+>   > > *ASJAJSAO.LFKGJAYDJFNFHAJJAHJSHAJSANHDLAJ............012001220110010*
+>   >
+>   > Como num livro, antes de achar um capítulo, olhamos o índice para buscar a página.
+>   >
+>   > > ![HASH](https://s2.glbimg.com/2O94mvUvk6mFkTDAWexC1np4J7A=/0x0:1000x689/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/B/8/bqBC2rQLygYGUpM3FEQQ/2012-07-09-exemplo-de-aplicacao-de-busca-por-hash-em-uma-tabela-de-nomes-e-telefones.png)
+>   
+>   
 
 
 
