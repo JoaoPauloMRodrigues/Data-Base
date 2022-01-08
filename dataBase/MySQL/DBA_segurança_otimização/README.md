@@ -206,13 +206,77 @@
 >   >
 >   > > ![HASH](https://s2.glbimg.com/2O94mvUvk6mFkTDAWexC1np4J7A=/0x0:1000x689/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/B/8/bqBC2rQLygYGUpM3FEQQ/2012-07-09-exemplo-de-aplicacao-de-busca-por-hash-em-uma-tabela-de-nomes-e-telefones.png)
 >   
->   
 
+----
 
+## Criando usuário 
+
+> ```mysql
+> #Cria usuario
+> CREATE USE '<nome>'@'<servidor>' IDENTIFIED BY '<SENHA>';
+> 
+> #Definir que ele pode acessar de qualquer lugar
+> #Ou limitar a uma maquita só colocando o IP
+> CREATE USE '<nome>'@'%' IDENTIFIED BY '<SENHA>';
+> 
+> #Dar privilegios 
+> #definindo ele como DBA com todos os privilegios
+> GRANT ALL PRIVILEGES ON *.* TO '<nome>'@'<servidor>' WITH GRANT OPTION
+> 
+> #definindo privilegios especificos
+> GRANT SELECT,INSERT,DELETE ON *.* TO '<nome>'@'<servidor>'
+> 
+> #Apagando usuario
+> DROP USER '<nome>'@'<servidor>'
+> ```
+>
+> *Obs : também é possível criar pelo workBench.*
+>
+> ----
+>
+> **Limitando schemas (dataBases)**
+>
+> > ```mysql
+> > GRANT SELECT,INSERT,DELETE ON <nome do schema>.* TO '<nome>'@'<servidor>'
+> > 
+> > #limitando tabelas
+> > GRANT SELECT,INSERT ON <nome da tabela> TO '<nome>'@'<servidor>'
+> > 
+> > ```
+>
+> **Limpando limitações**
+>
+> > ```mysql
+> > #para ver os usu
+> > SELECT * FROM mysql.user 
+> > 
+> > #para ver as permissoes
+> > SHOW GRANTS FOR '<nome>'@'<servidor>'
+> > 
+> > #limpando as permissoes
+> > REMOVE ALL PRIVILEGES, GRANT OPTION FROM '<nome>'@'<servidor>'
+> > 
+> > ```
+>
+> ----
+>
+> > 
+>
+> ----
+>
+> > ![](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/repo_img/ip_coringa.jpeg)
+>
+> 1. *qualquer **IP** de **192.168.1.0** á **192.168.1.255** pode acessar;*
+> 2. *pode ir do **192.168.1.100** á **192.168.1.255;***
+> 3. *pode ir qualquer letra no lugar do **__***.
+
+----
 
 ## **Nota**
 
 > Conectar no MySQL por linha de comando :
 >
 > > ![conexao_mysql](https://raw.githubusercontent.com/JoaoPauloMRodrigues/Studies/main/dataBase/MySQL/DBA_seguran%C3%A7a_otimiza%C3%A7%C3%A3o/ex_mysqldump/conexao_mysql.jpeg)
+>
+> - MySQL Slap :  simula consultas concorrentes no mysql. (*https://dev.mysql.com/doc/refman/8.0/en/mysqlslap.html*)
 
