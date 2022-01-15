@@ -17,7 +17,7 @@
 
 > - **$git branch**      **➝**  *(mostra todas as branchs e aonde está no momento)*.
 > - **$git checkout -b** **➝** *<branch.> **  *(cria uma nova branch)*.
-> - **$git branch -m <nome.> **    **➝**    *(mudar o nome da branch main)*.
+> - ** $git branch -m <nome.> **    **➝**    *(mudar o nome da branch main)*.
 > - **$git checkout <branch.> **   **➝**    *(muda de branch).*
 > - **$git merge <nome. da. branch. que. deseja. unir. a main.>**   **➝**    *(para utilizar este comando é necessario estar dentro da branch main)*.
 
