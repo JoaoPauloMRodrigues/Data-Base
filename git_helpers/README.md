@@ -37,8 +37,8 @@
 
 ## Git reset
 
-> - **$git reset <nomearquivo.>**      *(para reverter o **$git add**)*
-> -  **$git reset**      *(para reverter o **<add .>**)*  
+> - **$git reset <nomearquivo.>**  *➝ (para reverter o $git add)*
+> -  **$git reset**  *➝ (para reverter o $git <add  .>)*  
 
 ----
 
@@ -52,4 +52,4 @@
 
 ----
 
-***Referencia** : https://git-scm.com/docs/git --- https://www.atlassian.com/br/git/tutorials/syncing*
+***Referencia** : https://git-scm.com/docs/git - https://www.atlassian.com/br/git/tutorials/syncing*
