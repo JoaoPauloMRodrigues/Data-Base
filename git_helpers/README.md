@@ -38,7 +38,7 @@
 ## Git reset
 
 > - **$git reset <nomearquivo.>**  *➝ (para reverter o $git add)*
-> -  **$git reset**  *➝ (para reverter o $git <add  .>)*  
+> -  **$git reset**  *➝ (para reverter o $git add  .)*  
 
 ----
 
