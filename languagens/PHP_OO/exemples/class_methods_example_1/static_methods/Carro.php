@@ -1,5 +1,9 @@
 <?php
 
+//Como se trata de um metodo statico
+//Podemos refrenciar usando o nomeDaClasse :: 
+// Ou self :: metodo:
+
 class Carro {
     public static string $nome;
     public static float $preco;
