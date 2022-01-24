@@ -1,8 +1,12 @@
 <?php
     class Pessoa {
-        private $nome;
-        private $idade;
-        private $sexo;
+        protected $nome;
+        protected $idade;
+        protected $sexo;
+
+        function __construct($nome){
+            $this -> setNome($nome);
+        }
 
         public function fazerAniverssario (){
             $this-> idade ++;

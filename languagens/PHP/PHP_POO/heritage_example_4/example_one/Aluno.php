@@ -1,9 +1,15 @@
 <?php
     require_once 'class_pessoa.php';
+
     class Aluno extends Pessoa {
         private $matricula;
         private $curso;
 
+        //chama o construtor da classe base
+        function functionName($nome){
+            parent::__construct ($nome);
+        }
+        
         public function cacelarMatricula(){
             echo "Matricula Cancelada";
         }
