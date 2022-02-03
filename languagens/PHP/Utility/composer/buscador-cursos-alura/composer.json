@@ -1,0 +1,21 @@
+{
+    "name": "joaomrodrigues/buscador-curso",
+    "description": "Projeto que buscar cursos no site da alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "joão Paulo",
+            "email": "joaopaulomoreirarodrigues@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BuscadorDeCursos\\Src\\": "src/"
+        }
+    }
+}
