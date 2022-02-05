@@ -17,8 +17,10 @@
 > 1. ***composer init***       => Inicializa um ***composer.json*** como os parametros passados;
 > 2. ***composer install***  => lê o arquivo ***composer.lock*** e instala as exatas dependências lá definidas;
 > 3. ***composer update*** => lê o arquivo ***composer.json***, instala as dependências mais atuais dentro das restrições definidas e atualiza o ***composer.lock***;
-> 4. ***composer require <pacote.>*** => instala  nova dependencia .
+> 4. ***composer require <pacote.>*** => instala  nova dependência .
 > 4. ***composer dumpautoload*** => atualiza somente o autoload.
+> 4. ***composer require --dev <pacote.>***  => instala as dependências  no ambiente dev
+> 4. ***composer install --no-dev*** => instala todas as dependências que estão dentro do require, e as de require-dev não.
 
 -----
 
@@ -44,3 +46,58 @@
 > >
 > > 
 
+----
+
+## Classmap
+
+> ### Mapeia classes fora da ps4
+>
+> > ```json
+> > "classmap": [
+> >     "./varias_classes_ex.php"
+> >  ],
+> > ```
+
+----
+
+## Files
+
+> ### Sempre vai ser inserido no autoload
+>
+> > ```json
+> >  "files": [
+> >     "./functions.php"
+> >     "./helpers.php"
+> >     "./views.php"
+> >  ],
+> > ```
+> >
+> > 
+
+-----
+
+## Executáveis
+
+> Divisão pacotes Dev do de produção
+>
+> > ```json
+> >  "require": {
+> >         "guzzlehttp/guzzle": "^6.3",
+> >         "symfony/dom-crawler": "^4.2",
+> >         "symfony/css-selector": "^4.2"
+> >     },
+> >     "require-dev": {
+> >         "phpunit/phpunit": "^9.5",
+> >         "squizlabs/php_codesniffer": "^3.6"
+> >     },
+> > ```
+>
+> ----
+>
+> Os executáveis ficam dentro da pasta ***vendor\bin***
+>
+> ```powershell
+> \buscador-cursos-alura> vendor\bin\phpcs -help
+> ```
+>
+> 

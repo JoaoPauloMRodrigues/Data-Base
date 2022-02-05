@@ -7,7 +7,7 @@
         'aliases' => array(),
         'reference' => NULL,
         'name' => 'joaomrodrigues/buscador-curso',
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         'guzzlehttp/guzzle' => array(
