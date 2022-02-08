@@ -100,4 +100,51 @@
 > \buscador-cursos-alura> vendor\bin\phpcs -help
 > ```
 >
-> 
+
+---
+
+## Scripts
+
+> Atalhos para script na pasta ***composer.json***, não precisa passar o caminho ***vendor/bin***, pois se o comando digitado não existir no sistema operacional, ele automaticamente buscara em  ***vendor/bin***. Pode se também executar qualquer código do sistema operacional e qualquer código php.
+>
+> > ```json
+> > "scripts": {
+> >     "cs" : "phpcs --standard=PSR12 src/",
+> >     "phan" : "phan --allow-polyfill -parser",
+> >     "php" : "nameSpace\\Da\\classe::metodo",
+> > }
+> > 
+> > ------
+> > //mais de 1 script
+> > //se for um comando criado adiciona o @ na frente
+> > 
+> > "lista" : [
+> >     "@phan",
+> >     "@cs"
+> > ]
+> > 
+> > //----- descrição
+> > 
+> > "scripts-descriptions": {
+> >     "lista" : "lista de dois script"
+> > }
+> > 
+> > 
+> > ```
+> >
+> > ### Eventos
+> >
+> > > ```json
+> > >  "post-update-cmd" :[
+> > >      "@cs"
+> > >  ]
+> > > ```
+> > >
+> > > ***https://getcomposer.org/doc/articles/scripts.md***
+> >
+> > ### Execução 
+> >
+> > > ```powershell
+> > > composer <nome do script>
+> > > ```
+

@@ -18,6 +18,21 @@
         "squizlabs/php_codesniffer": "^3.6",
         "phan/phan": "^5.3"
     },
+    "scripts": {
+        "cs" : "phpcs --standard=PSR12 src/" ,
+        "phan" : "phan --allow-polyfill -parser",
+        "lista" : [
+            "@phan",
+            "@cs"
+        ],
+        "ls" : "dir",
+        "post-update-cmd" :[
+            "@cs"
+        ]
+    },
+    "scripts-descriptions": {
+        "lista" : "lista de dois script"
+    },
     "autoload": {
         "classmap": [
             "./varias_classes_ex.php"
