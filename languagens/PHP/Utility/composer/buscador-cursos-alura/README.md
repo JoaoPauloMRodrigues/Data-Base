@@ -148,3 +148,47 @@
 > > > composer <nome do script>
 > > > ```
 
+-----
+
+## Versionamento Composer
+
+
+
+> ### Gitignore
+>
+> > É um arquivo criado dentro do seu diretório, para informar ao Git os arquivos que ele devo ignorar na hora de subir para nuvem
+> >
+> > ```tex
+> > .gitignore  <- nome do arquivo
+> > *****************************
+> > caminho das pastas que devem ser ignoradas
+> > 
+> > vendor/
+> > src/
+> > 
+> > 
+> > ```
+
+----
+
+> ```json
+>  "require": {
+>      "guzzlehttp/guzzle": "^6.3",
+>      "symfony/dom-crawler": "^4.2",
+>      "symfony/css-selector": "^4.2"
+>  },
+> ```
+>
+> > 1. *As versões são informadas através de tags, que o composer ira entender como uma nova versão do pacote*
+> >
+> > ----
+> >
+> > ```text
+> > No terminal, usando git para versionar
+> > $git tag -a v1.0.0
+> > ```
+> >
+> > - *https://semver.org/lang/pt-BR/*
+> > - 1. => *Primeiro digito (MAJOR VERSION), é a versão principal, que indica quebra de compatibilidade.*
+> > - 0. => Segundo digito (MINOR VERSION), quando adiciona coisas, mas tudo que já tinha continua funcionando.
+> > -    0 . => Terceiro digito (PATCH VERSION), pequenas correções de bugs etc...
