@@ -150,9 +150,7 @@
 
 -----
 
-## Versionamento Composer
-
-
+## Versionamento Composer e publicação do pacote
 
 > ### Gitignore
 >
@@ -172,11 +170,11 @@
 ----
 
 > ```json
->  "require": {
->      "guzzlehttp/guzzle": "^6.3",
->      "symfony/dom-crawler": "^4.2",
->      "symfony/css-selector": "^4.2"
->  },
+> "require": {
+> "guzzlehttp/guzzle": "^6.3",
+> "symfony/dom-crawler": "^4.2",
+> "symfony/css-selector": "^4.2"
+> },
 > ```
 >
 > > 1. *As versões são informadas através de tags, que o composer ira entender como uma nova versão do pacote*
@@ -191,4 +189,63 @@
 > > - *https://semver.org/lang/pt-BR/*
 > > - 1. => *Primeiro digito (MAJOR VERSION), é a versão principal, que indica quebra de compatibilidade.*
 > > - 0. => Segundo digito (MINOR VERSION), quando adiciona coisas, mas tudo que já tinha continua funcionando.
-> > -    0 . => Terceiro digito (PATCH VERSION), pequenas correções de bugs etc...
+> > -       0 . => Terceiro digito (PATCH VERSION), pequenas correções de bugs etc...
+> >
+> > ----
+> >
+> > ### Constraint : *https://getcomposer.org/doc/articles/versions.md*
+> >
+> > #### versão exata:
+> >
+> > ```tex
+> >  1.0.0
+> > ```
+> >
+> > -----
+> >
+> > #### Alcance de versão
+> >
+> > ```text
+> > 1.0 - 2.0  -> da versão 1.0 á 2.0
+> > 1.0.*      -> (*) pode ser qualquer posição
+> > 
+> > ```
+> >
+> > ```text
+> > ^1.2.3 -> >= 1.2.3 < 2.0.0 até o momento que quebra compatibilidade
+> > ```
+
+-----
+
+## Adicionar arquivo Bin  no pacote
+
+> sobre a licença de software : *https://pt.wikipedia.org/wiki/GNU_General_Public_License*
+>
+> ```json
+> "licencce" : "GPL-3.0",
+> "bin" : ["buscar-cursos.php"]
+> ```
+>
+> ----
+>
+> Para poder executar na linha sem comando sem a extensão PHP
+>
+> ```php
+> //no fonte que será cahamdo
+> 
+> #!/usr/bin/env php
+> <?php
+>     echo 'teste';
+> ```
+>
+> *#!/usr/bin/env php* 
+>
+> - #! => informa qual programa vai ler o arquivo
+> - usr/bin/env php => informa que o programa será lido pelo PHP
+>
+> ---
+>
+> ### Windows
+>
+> Ele cria o arquivo.php.baat => para executar
+

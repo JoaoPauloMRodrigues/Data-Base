@@ -43,5 +43,8 @@
         "psr-4": {
             "BuscadorDeCursos\\Src\\": "src/"
         }
-    }
+    },
+    "licencce" : "GPL-3.0",
+    "bin" : ["buscar-cursos.php"]
+
 }
