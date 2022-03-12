@@ -8,27 +8,26 @@ struct lista{
    int valor[TAM];     
 };
 
-void criaLista(lista *lis){
-    lis->ult = -1;
+void iniciaLista(lista *indicie){
+    indicie->ult = -1;
 }
 
-void insereFinal(lista *lis, int valorIns){
-    lis->ult++;
-    lis->valor[ lis->ult ] = valorIns;
+void insereFinal(lista *indicie, int valorIns){
+    indicie->ult++;
+    indicie->valor[ indicie->ult ] = valorIns;
 }
 
 int main(){
-	
-	lista lis;
+	lista list;
   	int valor;
-	int pos;
-  	pos = 0;
-    criaLista(&lis);
-    while ((valor != 0)&& (pos < TAM)){
+	int posicao;
+  	posicao = 0;
+    iniciaLista(&list);
+    while ((valor != 0)&& (posicao < TAM)){
     	cout << "Informe o valor a ser inserido: ";
         cin >> valor;   
-    	insereFinal(&lis,valor);
-    	pos++;
+    	insereFinal(&list,valor);
+    	posicao++;
 	}
     return 0;    
 }

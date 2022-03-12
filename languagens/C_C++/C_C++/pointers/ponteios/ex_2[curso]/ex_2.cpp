@@ -9,7 +9,7 @@ int main (){
 	
 	//printf("%d", p);
 	//*p retorna o valor do apontado
-	//p retorna o END do apontado]
+	//p retorna o endereço do apontado
 	
 	printf("\n--- END DO APONTADO (&teste) -----\n");
 	printf("teste = %x",&teste);
