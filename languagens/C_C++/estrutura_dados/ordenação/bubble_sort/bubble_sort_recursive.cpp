@@ -24,6 +24,6 @@ int main() {
    recBubble(data, n);
    //exibe o resultado
    for(int i = 0; i <n; i++){
-      //cout << "["<< i  << "]=> " << data[i] << " ";
+      cout << "["<< i  << "]=> " << data[i] << " ";
    }
 }
