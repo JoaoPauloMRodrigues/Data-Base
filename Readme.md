@@ -1,4 +1,4 @@
-## Repositório dedicado á estudos  de novas tecnologias e linguagens.
+## Repositório dedicado á estudos  de bancos de dados
 
 
 
